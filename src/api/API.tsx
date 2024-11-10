@@ -1,4 +1,6 @@
 // src/api/API.tsx
+
+// Remove the unused interface since we're handling errors differently
 export interface GitHubUser {
   login: string;
   id: number;
